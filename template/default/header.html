@@ -1,0 +1,42 @@
+<!-- header start -->
+<header id="header" class="container ng-scope">
+    <h1>
+        <!-- Main page logo -->
+        <a href="" style="background-image: url('{logo}');background-repeat: no-repeat;">{logo_url_name}</a>
+        <!-- Main page headline -->
+        <span class="ng-binding">{logo_dec}</span>
+    </h1>
+    
+    <div id="balance_container" class="user-profile">
+        <a class="btn btn-default pull-right ng-binding" href="">
+		<span class="elusive icon-chevron-left"></span> Back</a>
+    </div>
+    
+	<nav class="main-navigation navbar navbar-default" role="navigation">
+	<!-- Collapse navigation for mobile -->
+	<div class="navbar-header">
+	  <button type="button" onclick="menu()" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".main-navigation-collapse">
+	    <span class="elusive icon-home"></span>  Menu
+	  </button>
+	</div>
+	<!-- /Collapse navigation for mobile -->
+
+	<!-- Navigation -->
+	<div id="menu_list" class="main-navigation-collapse navbar-collapse collapse" style="height: 2px;">
+	  <ul class="nav navbar-nav">
+	  {links}
+	    <!--li class="active">
+	      <a href="#"><span class="elusive icon-home"></span> Home</a>
+	    </li--->
+	  </ul>
+	  
+	  <form action="#" class="navbar-form navbar-right" role="search" method="post">
+	    <div class="form-group">
+	      <input type="text" name="query" class="form-control" placeholder="Type here to search…">
+	    </div>
+	    <button type="submit" class="btn btn-default" style="height: 35px;"><span class="elusive icon-search"></span></button>
+	  </form>
+	</div>
+	</nav>
+</header>
+<!-- header end -->

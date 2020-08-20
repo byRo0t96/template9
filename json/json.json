@@ -1,0 +1,17 @@
+{"head":[
+{
+"mail":"by.root96@gmail.com",
+"phone":"+213.699.50.63.17",
+"title":"Ro0t96 | Official Website",
+"icon":"img/favicon.ico",
+"logo":"img/template_logo.png",
+"logo_url_name":"Ro0r96",
+"logo_desc":"Everything related to programming.",
+"links_url":[
+{"url":"index.html","name":"Home","icon":"elusive icon-home"},
+{"url":"","name":"Works","icon":"elusive icon-cogs"},
+{"url":"","name":"About","icon":"elusive icon-credit-card"},
+{"url":"","name":"Help!","icon":"elusive icon-website"},
+{"url":"","name":"Donate","icon":"elusive icon-website"}]
+}
+]}
