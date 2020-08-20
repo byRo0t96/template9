@@ -1,0 +1,12 @@
+@font-face{
+  font-family: 'cairo';
+  src: url('Cairo-Bold.ttf');
+  src: url('Cairo-ExtraLight.ttf');
+  src: url('Cairo-Regular.ttf');
+  src: url('Cairo-Light.ttf');
+  src: url('Cairo-Black.ttf'),
+}
+
+body,select,option {
+    font-family: 'cairo','Arial', sans-serif;
+}
