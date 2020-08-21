@@ -34,7 +34,7 @@ function json(){
 					
 					/**/
 					var footer_id=document.getElementById('footer');
-					footer_id.innerHTML='Copyright &copy; '+new Date().getFullYear()+' '+json_obt.head[i].name+' All rights reserved.<br>E-mail : '+json_obt.head[i].mail+'<br>Version: '+json_obt.head[i].version;
+					footer_id.innerHTML='Copyright &copy; 2020 '+json_obt.head[i].name+' All rights reserved.<br>E-mail : '+json_obt.head[i].mail+'<br>Version: '+json_obt.head[i].version;
 					
 					/**/
 					/*var body_code = document.getElementById("body");
