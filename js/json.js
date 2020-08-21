@@ -33,8 +33,9 @@ function json(){
 					links_id.innerHTML='<ul class="nav navbar-nav">'+links+'</ul>';
 					
 					/**/
-					var footer_id=document.getElementById('footer');
-					footer_id.innerHTML='Copyright &copy; 2020 '+json_obt.head[i].name+' All rights reserved.<br>E-mail : '+json_obt.head[i].mail+'<br>Version: '+json_obt.head[i].version;
+					var footer_id=document.getElementById('footer_id');
+					footer_id.innerHTML='45555';
+					//'Copyright &copy; 2020 '+json_obt.head[i].name+' All rights reserved.<br>E-mail : '+json_obt.head[i].mail+'<br>Version: '+json_obt.head[i].version;
 					
 					/**/
 					/*var body_code = document.getElementById("body");
