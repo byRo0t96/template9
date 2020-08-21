@@ -1,10 +1,12 @@
 <!-- header start -->
 <header id="header" class="container ng-scope">
     <h1>
+	    <div id="logo_id"></div>
+	
         <!-- Main page logo -->
-        <a href="" style="background-image: url('{logo}');background-repeat: no-repeat;">{logo_url_name}</a>
+        <!--a href="" style="background-image: url('{logo}');background-repeat: no-repeat;">{logo_url_name}</a>
         <!-- Main page headline -->
-        <span class="ng-binding">{logo_dec}</span>
+        <!--span class="ng-binding">{logo_dec}</span-->
     </h1>
     
     <div id="balance_container" class="user-profile">
@@ -23,12 +25,14 @@
 
 	<!-- Navigation -->
 	<div id="menu_list" class="main-navigation-collapse navbar-collapse collapse" style="height: 2px;">
-	  <ul class="nav navbar-nav">
-	  {links}
-	    <!--li class="active">
+	  
+	  <div id="links"></div>
+	  
+	  <!--ul class="nav navbar-nav">
+	    <!--li class="active"{links}>
 	      <a href="#"><span class="elusive icon-home"></span> Home</a>
 	    </li--->
-	  </ul>
+	  <!--/ul-->
 	  
 	  <form action="#" class="navbar-form navbar-right" role="search" method="post">
 	    <div class="form-group">
